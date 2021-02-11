@@ -15,10 +15,10 @@ try:
     input2.send_keys("Petrov")
     input3 = browser.find_element_by_css_selector('.first_block input.third')
     input3.send_keys("qwe@qwe.qwe")
-    input4 = browser.find_element_by_css_selector('.second_block input.first')
-    input4.send_keys("88005553535")
-    input5 = browser.find_element_by_css_selector('.second_block input.second')
-    input5.send_keys("Moscow")
+    # input4 = browser.find_element_by_css_selector('.second_block input.first')
+    # input4.send_keys("88005553535")
+    # input5 = browser.find_element_by_css_selector('.second_block input.second')
+    # input5.send_keys("Moscow")
 
     # Отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
