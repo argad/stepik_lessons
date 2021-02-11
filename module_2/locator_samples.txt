@@ -1,0 +1,5 @@
+input#input-first-name
+//input[@name='first-name']
+input.class-email
+//input[@data-custom='misha']
+//input[contains(@class, "class-address")]
