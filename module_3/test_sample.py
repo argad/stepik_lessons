@@ -38,11 +38,11 @@ def test_items_view():
 
         # Act
         # Переходим на следующую страницу, собираем количество товаров
-        next_link = browser.find_element_by_css_selector(f"{next_button_select} a").click()
+        browser.find_element_by_css_selector(f"{next_button_select} a").click()
         time.sleep(1)
         elements_next_page = browser.find_elements_by_class_name(product_class)
         # Переходим на предыдующую страницу, собираем количество товаров
-        prev_link = browser.find_element_by_css_selector(f"{prev_button_select} a").click()
+        browser.find_element_by_css_selector(f"{prev_button_select} a").click()
         time.sleep(1)
         elements_prev_page = browser.find_elements_by_class_name(product_class)
 
