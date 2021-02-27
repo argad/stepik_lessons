@@ -4,7 +4,9 @@ button_add_to_basket_locator = ".btn-add-to-basket"
 
 basket_button_text_options = {
     "ru": "Добавить в корзину",
-    "en": "Add to basket"
+    "en": "Add to basket",
+    "es": "Añadir al carrito",
+    "fr": "Ajouter au panier"
 }
 
 def test_button_add_to_basket_is_present(browser):
