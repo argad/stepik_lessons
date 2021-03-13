@@ -1,0 +1,112 @@
+{
+  "uid" : "fae07dc92f54a199",
+  "name" : "test_guest_can_add_product_to_basket[offer7]",
+  "fullName" : "module_5.test_product_page.TestProductPage#test_guest_can_add_product_to_basket",
+  "historyId" : "8433857a769ecd2ca3eba03399b040cb",
+  "time" : {
+    "start" : 1615636994674,
+    "stop" : 1615636999142,
+    "duration" : 4468
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: Success message do not have correct product name in it",
+  "statusTrace" : "self = <module_5.test_product_page.TestProductPage object at 0x03E7D690>, browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7693be3cd40d3eb617b9fd83f7f47ea0\")>, promo_offer = 'offer7'\n\n    @pytest.mark.parametrize('promo_offer', [\n        \"offer0\",\n        \"offer1\",\n        \"offer2\",\n        \"offer3\",\n        \"offer4\",\n        \"offer5\",\n        \"offer6\",\n        pytest.param(\"offer7\", marks=pytest.mark.xfail),\n        \"offer8\",\n        \"offer9\"\n    ])\n    def test_guest_can_add_product_to_basket(self, browser, promo_offer):\n        # Arrange\n        page = ProductPage(browser, link.format(promo_offer))\n        page.open()\n        page.get_product_data()\n        # Act\n        page.add_product_to_basket()\n        # Assert\n        page.should_be_success_message()\n>       page.should_be_correct_product_in_success_message()\n\nmodule_5\\test_product_page.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <module_5.pages.product_page.ProductPage object at 0x03E7DAF0>\n\n    def should_be_correct_product_in_success_message(self):\n        assert self.product_name == self.browser.find_element(*ProductPageLocators.SUCCESS_MESSAGE_PRODUCT_NAME).text, \\\n>           \"Success message do not have correct product name in it\"\nE       AssertionError: Success message do not have correct product name in it\n\nmodule_5\\pages\\product_page.py:28: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1615636993403,
+      "stop" : 1615636994673,
+      "duration" : 1270
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: Success message do not have correct product name in it",
+    "statusTrace" : "self = <module_5.test_product_page.TestProductPage object at 0x03E7D690>, browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7693be3cd40d3eb617b9fd83f7f47ea0\")>, promo_offer = 'offer7'\n\n    @pytest.mark.parametrize('promo_offer', [\n        \"offer0\",\n        \"offer1\",\n        \"offer2\",\n        \"offer3\",\n        \"offer4\",\n        \"offer5\",\n        \"offer6\",\n        pytest.param(\"offer7\", marks=pytest.mark.xfail),\n        \"offer8\",\n        \"offer9\"\n    ])\n    def test_guest_can_add_product_to_basket(self, browser, promo_offer):\n        # Arrange\n        page = ProductPage(browser, link.format(promo_offer))\n        page.open()\n        page.get_product_data()\n        # Act\n        page.add_product_to_basket()\n        # Assert\n        page.should_be_success_message()\n>       page.should_be_correct_product_in_success_message()\n\nmodule_5\\test_product_page.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <module_5.pages.product_page.ProductPage object at 0x03E7DAF0>\n\n    def should_be_correct_product_in_success_message(self):\n        assert self.product_name == self.browser.find_element(*ProductPageLocators.SUCCESS_MESSAGE_PRODUCT_NAME).text, \\\n>           \"Success message do not have correct product name in it\"\nE       AssertionError: Success message do not have correct product name in it\n\nmodule_5\\pages\\product_page.py:28: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e92bd34a0d900442",
+      "name" : "stdout",
+      "source" : "e92bd34a0d900442.txt",
+      "type" : "text/plain",
+      "size" : 58
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1615636999184,
+      "stop" : 1615637001543,
+      "duration" : 2359
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "module_5"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0VVOU9V"
+  }, {
+    "name" : "thread",
+    "value" : "16044-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "module_5.test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "promo_offer",
+    "value" : "'offer7'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "fae07dc92f54a199.json",
+  "parameterValues" : [ "'offer7'" ]
+}

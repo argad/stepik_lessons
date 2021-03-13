@@ -9,18 +9,18 @@ default_promo_offer = "offer0"
 
 
 class TestProductPage:
-    @pytest.mark.skip(reason="not now")
+    # @pytest.mark.skip(reason="not now")
     @pytest.mark.parametrize('promo_offer', [
-        "?promo=offer0",
-        "?promo=offer1",
-        "?promo=offer2",
-        "?promo=offer3",
-        "?promo=offer4",
-        "?promo=offer5",
-        "?promo=offer6",
-        pytest.param("?promo=offer7", marks=pytest.mark.xfail),
-        "?promo=offer8",
-        "?promo=offer9"
+        "offer0",
+        "offer1",
+        "offer2",
+        "offer3",
+        "offer4",
+        "offer5",
+        "offer6",
+        pytest.param("offer7", marks=pytest.mark.xfail),
+        "offer8",
+        "offer9"
     ])
     def test_guest_can_add_product_to_basket(self, browser, promo_offer):
         # Arrange
@@ -83,7 +83,6 @@ class TestProductPage:
         basket_page = BasketPage(browser, browser.current_url)
         basket_page.should_be_empty_basket()
 
-    @pytest.mark.testclass
     class TestUserAddToBasketFromProductPage:
         @pytest.fixture(scope="function", autouse=True)
         def setup(self, browser):
