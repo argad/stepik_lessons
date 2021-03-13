@@ -1,10 +1,8 @@
-from .pages.main_page import MainPage
+from .pages.base_page import BasePage
 
 link = "http://selenium1py.pythonanywhere.com/"
 
 
-class TestMainPage:
-    def test_guest_can_go_to_login_page(self, browser):
-        page = MainPage(browser, link)
-        page.open()
-        page.should_be_login_link()
+class MainPage(BasePage):
+    def __init__(self, *args, **kwargs):
+        super(MainPage, self).__init__(*args, **kwargs)
