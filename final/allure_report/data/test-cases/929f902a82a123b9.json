@@ -1,0 +1,102 @@
+{
+  "uid" : "929f902a82a123b9",
+  "name" : "test_view_button_to_basket",
+  "fullName" : "final.test_catalogue_page.TestCataloguePage#test_view_button_to_basket",
+  "historyId" : "3ef307334e2ab6c7fcd537e50709d169",
+  "time" : {
+    "start" : 1616443583440,
+    "stop" : 1616443587570,
+    "duration" : 4130
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1616443582103,
+      "stop" : 1616443583439,
+      "duration" : 1336
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ac5200c8ff594dd",
+      "name" : "stdout",
+      "source" : "6ac5200c8ff594dd.txt",
+      "type" : "text/plain",
+      "size" : 32
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1616443587571,
+      "stop" : 1616443590605,
+      "duration" : 3034
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "final"
+  }, {
+    "name" : "suite",
+    "value" : "test_catalogue_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCataloguePage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0VVOU9V"
+  }, {
+    "name" : "thread",
+    "value" : "14772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "final.test_catalogue_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "929f902a82a123b9.json",
+  "parameterValues" : [ ]
+}

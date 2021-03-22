@@ -1,0 +1,105 @@
+{
+  "uid" : "f4b1f8fd2e529d5",
+  "name" : "test_next_pagination_catalogue[4]",
+  "fullName" : "final.test_catalogue_page.TestCataloguePage#test_next_pagination_catalogue",
+  "historyId" : "1c9b3c1fe542f39ab5e78dfe844887cf",
+  "time" : {
+    "start" : 1616443531988,
+    "stop" : 1616443536598,
+    "duration" : 4610
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1616443530946,
+      "stop" : 1616443531988,
+      "duration" : 1042
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b5d883f83e3f81f",
+      "name" : "stdout",
+      "source" : "3b5d883f83e3f81f.txt",
+      "type" : "text/plain",
+      "size" : 32
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1616443536599,
+      "stop" : 1616443538686,
+      "duration" : 2087
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "final"
+  }, {
+    "name" : "suite",
+    "value" : "test_catalogue_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCataloguePage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0VVOU9V"
+  }, {
+    "name" : "thread",
+    "value" : "14772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "final.test_catalogue_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "page_number",
+    "value" : "'4'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4b1f8fd2e529d5.json",
+  "parameterValues" : [ "'4'" ]
+}

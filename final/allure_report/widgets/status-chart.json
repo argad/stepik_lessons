@@ -1,0 +1,111 @@
+[ {
+  "uid" : "3cc80252da0f0ff4",
+  "name" : "test_next_pagination_catalogue[3]",
+  "time" : {
+    "start" : 1616443524120,
+    "stop" : 1616443528851,
+    "duration" : 4731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf2d475c768b7785",
+  "name" : "test_guest_can_view_catalogue",
+  "time" : {
+    "start" : 1616443496821,
+    "stop" : 1616443500486,
+    "duration" : 3665
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a73ad284671c204e",
+  "name" : "test_prev_pagination_catalogue[3]",
+  "time" : {
+    "start" : 1616443564337,
+    "stop" : 1616443569161,
+    "duration" : 4824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a7bf19a4e0b3fa4",
+  "name" : "test_prev_pagination_catalogue[1]",
+  "time" : {
+    "start" : 1616443539716,
+    "stop" : 1616443553083,
+    "duration" : 13367
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b28cba1a2761d3",
+  "name" : "test_next_pagination_catalogue[1]",
+  "time" : {
+    "start" : 1616443503684,
+    "stop" : 1616443508377,
+    "duration" : 4693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "177e73715997b407",
+  "name" : "test_prev_pagination_catalogue[4]",
+  "time" : {
+    "start" : 1616443572602,
+    "stop" : 1616443580016,
+    "duration" : 7414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e21b17cde872b0ee",
+  "name" : "test_guest_can_add_product_to_basket",
+  "time" : {
+    "start" : 1616443591731,
+    "stop" : 1616443596108,
+    "duration" : 4377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78a42b725913317c",
+  "name" : "test_prev_pagination_catalogue[2]",
+  "time" : {
+    "start" : 1616443556706,
+    "stop" : 1616443561198,
+    "duration" : 4492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4b1f8fd2e529d5",
+  "name" : "test_next_pagination_catalogue[4]",
+  "time" : {
+    "start" : 1616443531988,
+    "stop" : 1616443536598,
+    "duration" : 4610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c82f1339985dfac0",
+  "name" : "test_next_pagination_catalogue[2]",
+  "time" : {
+    "start" : 1616443512379,
+    "stop" : 1616443520994,
+    "duration" : 8615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "929f902a82a123b9",
+  "name" : "test_view_button_to_basket",
+  "time" : {
+    "start" : 1616443583440,
+    "stop" : 1616443587570,
+    "duration" : 4130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
