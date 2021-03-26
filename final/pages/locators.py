@@ -11,6 +11,7 @@ class CataloguePageLocators:
     PREV_PAGE = (By.CSS_SELECTOR, ".previous a")
     BASKET_MINI = (By.CSS_SELECTOR, ".basket-mini")
     BASKET_UPDATE_ALERT = (By.CSS_SELECTOR, ".alert-info .alertinner p strong")
+    ALERT = (By.CSS_SELECTOR, "#messages .alert")
 
 
 class BasePageLocators:
@@ -23,6 +24,13 @@ class BasePageLocators:
 class BasketPageLocators:
     BASKET_CONTENT_TEXT = (By.CSS_SELECTOR, "#content_inner p")
     BASKET_ITEMS = (By.CSS_SELECTOR, ".basket-items")
+    BASKET_ITEMS_TOTALS = (By.CSS_SELECTOR, ".col-sm-2 .price_color.align-right")
+    BASKET_TOTAL_WITHOUT_DISCOUNTS = (By.CSS_SELECTOR, "#basket_totals .align-right")
+    BASKET_TOTALS = (By.CSS_SELECTOR, "#basket_totals .total.align-right")
+    DELETE_BUTTON = (By.CSS_SELECTOR, "a[data-behaviours='remove']")
+    ALERT = (By.CSS_SELECTOR, "#messages .alert")
+    BASKET_INPUT = (By.CSS_SELECTOR, ".checkout-quantity input.form-control")
+    BASKET_INPUT_BUTTON = (By.CSS_SELECTOR, ".checkout-quantity button.btn.btn-default")
 
 
 class MainPageLocators:

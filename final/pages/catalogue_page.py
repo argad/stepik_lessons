@@ -61,3 +61,7 @@ class CataloguePage(BasePage):
         assert alert_price_value == basket_price_value, \
             f"Price in the alert and price in the basket should match. Got alert_price_value={alert_price_value} and " \
             f"basket_price_value={basket_price_value} instead"
+
+    def should_be_not_have_alerts(self):
+        assert self.is_not_element_present(*CataloguePageLocators.ALERT), \
+            "Catalogue have alerts but should not be"
